@@ -1,0 +1,37 @@
+# --- Node.js / Frontend ---
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+.npm
+.eslintcache
+
+# --- Python / Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+dist/
+wheels/
+*.egg-info/
+
+# --- Environment & Configuration Files ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- IDE & Operating System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
